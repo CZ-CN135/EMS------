@@ -33,7 +33,7 @@ class WaveformViewer(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("EMS 录波曲线查看器")
-        self.resize(1380, 860)
+        self.resize(1600, 960)
 
         icon_path = resource_path(ICON_FILE)
         if os.path.exists(icon_path): self.setWindowIcon(QIcon(icon_path))

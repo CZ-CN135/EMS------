@@ -2,7 +2,7 @@
 import sys
 import os
 import re
-from constants import _CHECKED_INT, _UNCHECKED_INT
+from .constants import _CHECKED_INT, _UNCHECKED_INT
 
 def resource_path(relative_path: str) -> str:
     base = getattr(sys, "_MEIPASS", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

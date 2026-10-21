@@ -9,9 +9,9 @@ if __name__ == "__main__" and __package__ is None:
 from PySide6.QtWidgets import QApplication
 from PySide6.QtGui import QIcon
 
-from .utils import resource_path
-from .constants import ICON_FILE
-from .ui.main_window import WaveformViewer
+from ems_waveform_viewer.utils import resource_path
+from ems_waveform_viewer.constants import ICON_FILE
+from ems_waveform_viewer.ui.main_window import WaveformViewer
 
 def main():
     app = QApplication(sys.argv)

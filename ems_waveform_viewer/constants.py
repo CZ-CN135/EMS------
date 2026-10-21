@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-ICON_FILE = "竖曲线.png"
+ICON_FILE = "竖曲线.ico"
 
 MAX_CURVES = 16
 MAX_READOUT = 8
